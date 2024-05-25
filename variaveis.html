@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+    var nome = "Lucas";
+    var telefone = "11-99999-9999";
+    var profissao = "Médico";
+    var salario = 150000;
+    var possuiConvenio = false;
+
+    if(possuiConvenio){
+        convenioString = "Possui convenio médico";
+    } else {
+        convenioString = "Não possui convênio médico";
+    }
+    
+    let profissional = `O nome do profissional é ${nome} e seu telefone é: ${telefone}. Ele é ${profissao} e ganha R$ ${salario.toFixed(2)}. ${convenioString}.`;
+
+    console.log(profissional);
+
+
+</script>

@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+
+<script>
+    let letras = ["Lucas Silva", 25, "123.456.789-99", 1.75, true];
+
+    function recebeLetra(letra) {
+        letras.push(letra)
+    }
+    function recebeDezLetras() {
+        let contadorDeLetra = 0;
+        while (contadorDeLetra < 10) {
+            let letra = prompt("Digite uma letra");
+            recebeLetra(letra);
+            contadorDeLetra++;
+        }
+    }
+    recebeDezLetras();
+    console.log("Letras inseridas: ", letras);
+
+</script>
